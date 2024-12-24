@@ -1,0 +1,67 @@
+/* Navbar Styling */
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    background-color: #f2f2f2;
+  }
+  
+  .Navbar h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .Menu_iteams {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Menu_iteams li {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .Menu_iteams li:hover {
+    color: red;
+  }
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product:hover {
+    transform: translateY(-10px); /* Creates a smooth hover effect */
+}
+
+.product img {
+    width: 120px; /* Add px to define the unit */
+    height: 150px; /* Add px to define the unit */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.product div {
+    padding: 10px;
+    margin: 7%;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #666;
+    margin: 3px 0;
+   
+}
+.demo{
+    width: 100px;
+}
